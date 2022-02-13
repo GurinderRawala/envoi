@@ -44,5 +44,5 @@ export default (Data) =>{
          
     }
 
-   return Arranged;
+   return Arranged.filter((item, pos) => Arranged.indexOf(item) === pos);
 }
